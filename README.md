@@ -95,4 +95,3 @@ Si tienes alguna pregunta o sugerencia, no dudes en contactar a los desarrollado
 ---
 
 ¡Gracias por usar **Blog IoT**!
-```
