@@ -1,6 +1,3 @@
-Claro, aquí tienes un ejemplo de un archivo `README.md` para tu proyecto "Blog IoT":
-
-```markdown
 # Blog IoT
 
 ![Blog IoT Logo](./src/assets/logo.png)
