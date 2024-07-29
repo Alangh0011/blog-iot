@@ -1,5 +1,5 @@
 import { features } from "../constants";
-import styles, { layout } from "../style";
+import styles, { layout } from "../../style";
 import Button from "./Button";
 
 const FeatureCard = ({ icon, title, content, index }) => (
@@ -22,13 +22,10 @@ const Business = () =>  (
   <section id="features" className={layout.section}>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>
-        You do the business, <br className="sm:block hidden" /> we’ll handle
-        the money.
+        ¿Qué aprenderas? 
       </h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-        With the right credit card, you can improve your financial life by
-        building credit, earning rewards and saving money. But with hundreds
-        of credit cards on the market.
+      En este Blog IoT aprenderás desde los conceptos básicos del Internet de las Cosas (IoT) hasta la implementación de proyectos avanzados y reales. A través de tutoriales detallados y prácticas guiadas, descubrirás cómo conectar y programar dispositivos IoT, y crear aplicaciones web interactivas. Al finalizar, serás capaz de construir soluciones IoT innovadoras como "CroqueFeed", un sistema automatizado de alimentación para mascotas, aplicando tus nuevos conocimientos en proyectos del mundo real. ¡Prepárate para transformar tus ideas en realidad!
       </p>
 
       <Button styles={`mt-10`} />

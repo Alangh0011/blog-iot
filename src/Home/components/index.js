@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
-import Billing from "./Billing";
 import CardDeal from "./CardDeal";
-import Business from "./Business";
+import Visual from "./Visual";
+import Contenido from "./Contenido";
 import Clients from "./Clients";
 import CTA from "./CTA";
 import Stats from "./Stats";
@@ -11,9 +11,9 @@ import Hero from "./Hero";
 
 export {
   Navbar,
-  Billing,
+  Visual,
   CardDeal,
-  Business,
+  Contenido,
   Clients,
   CTA,
   Stats,

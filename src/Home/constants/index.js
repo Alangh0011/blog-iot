@@ -1,45 +1,49 @@
-import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
+import { people01, people02, people03, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, hardware, mascota, web, github  } from "../../assets";
 
 export const navLinks = [
   {
     id: "home",
-    title: "Home",
+    title: "inicio",
+  },
+  {
+    id: "",
+    title: "Curso",
   },
   {
     id: "features",
-    title: "Features",
-  },
-  {
-    id: "product",
-    title: "Product",
+    title: "Contenido",
   },
   {
     id: "clients",
-    title: "Clients",
+    title: "Sobre mi",
+  },
+  {
+    id: "",
+    title: "Contacto",
   },
 ];
 
 export const features = [
   {
     id: "feature-1",
-    icon: star,
-    title: "Rewards",
+    icon: hardware,
+    title: "Hardware Básico para IoT",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Introducción a los microcontroladores (ESP32, Arduino) y Sensores y actuadores: ¿qué son y cómo funcionan?",
   },
   {
     id: "feature-2",
-    icon: shield,
-    title: "100% Secured",
+    icon: web,
+    title: "Desarrollo de Aplicaciones Web",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Frontend con React y Tailwind CSS, configuración de un proyecto con Vite. Backend con Node.js y Express.js",
   },
   {
     id: "feature-3",
-    icon: send,
-    title: "Balance Transfer",
+    icon: mascota,
+    title: "Integración de IoT y Aplicaciones Web",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "Comunicación entre Microcontroladores y Aplicaciones Web. Proyecto Final: CroqueFeed",
   },
 ];
 
@@ -73,19 +77,20 @@ export const feedback = [
 export const stats = [
   {
     id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+    title: "Fundamentos",
+    value: "IoT",
   },
   {
     id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    title: "Integración",
+    value: "ESP32",
   },
   {
     id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    title: "Aplicación",
+    value: "Full Stack",
   },
+  
 ];
 
 export const footerLinks = [
@@ -158,12 +163,12 @@ export const socialMedia = [
   {
     id: "social-media-1",
     icon: instagram,
-    link: "https://www.instagram.com/",
+    link: "https://www.instagram.com/alan_gh.00/",
   },
   {
     id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
+    icon: github,
+    link: "https://github.com/Alangh0011",
   },
   {
     id: "social-media-3",
@@ -173,7 +178,7 @@ export const socialMedia = [
   {
     id: "social-media-4",
     icon: linkedin,
-    link: "https://www.linkedin.com/",
+    link: "https://www.linkedin.com/in/alan-javier-g%C3%B3mez-hernandez/",
   },
 ];
 
